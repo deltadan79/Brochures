@@ -90,6 +90,7 @@ body {
 
 .title {
     color: white;
+	text-align:center;
 }
 
 /* ==============
@@ -103,7 +104,7 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
     padding: 15px 0;
 
     text-align: center;
@@ -183,19 +184,24 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
+        width: 40%;
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
     }
 
-    nav li:first-child a {
-        margin-left: 0;
-    }
+    
 
-    nav li:last-child a {
-        margin-right: 0;
-    }
+   
+.button {
+    background: none repeat scroll 0 0 #333333;
+    padding: 10px;
+	text-align:center;
+}
+.button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -228,12 +234,12 @@ nav a:hover {
    ============ */
 
     .title {
-        float: left;
+        
     }
 
     nav {
-        float: right;
-        width: 38%;
+        clear:both;
+		width:100%;
     }
 
 /* ============
