@@ -1,5 +1,5 @@
 
-function showConfirm() {
+(function showConfirm() {
         navigator.notification.confirm(
             'Do you really want to exit?',  // message
             exitFromApp,              // callback to invoke with index of button pressed
@@ -13,3 +13,4 @@ function showConfirm() {
       if (buttonIndex==2){
        navigator.app.exitApp();
     	}
+());
